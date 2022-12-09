@@ -6,13 +6,13 @@ import "./ItemDetailContainer.css";
 
 export default function ItemDetailContainer() {
   const [projectData, setProjectData] = useState(null);
-  const { project } = useParams();
+  const { ItemVegetableId } = useParams();
 
   useEffect(() => {
-    getProject(project).then((projectData) => {      
+    getProject(ItemVegetableId).then((projectData) => {      
       setProjectData(projectData);
     });
-  }, [project]);
+  }, [ItemVegetableId]);
 
   return (
     <>

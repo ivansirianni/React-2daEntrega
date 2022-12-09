@@ -21,10 +21,10 @@ function MyStore() {
             <Route path="/home" element={<Home />} />
             <Route path="/catalogue" element={<Catalogue />}>            
               <Route path="Agroecological Fruit Packs" element={<ItemFruitContainer />}>
-                <Route path=":project" element={<ItemFruit />} />
+                <Route path=":ItemFruitId" element={<ItemFruit />} />
               </Route>
               <Route path="Agroecological Vegetable Packs" element={<ItemListContainer />}>              
-                <Route path=":project" element={<ItemDetailContainer />} />
+                <Route path=":ItemVegetableId" element={<ItemDetailContainer />} />
               </Route>
             </Route>          
             <Route path="/contact" element={<Contact />} />
