@@ -1,4 +1,4 @@
-import { ITEMS_LIST_DETAILS, ITEMS_FRUIT_LIST_DETAILS } from "../utilities/projects";
+import { ITEMS_LIST_DETAILS, ITEMS_FRUIT_LIST_DETAILS } from "../utilities/items";
 
 export function getAllProjects() {
   return new Promise((resolve, reject) => {
