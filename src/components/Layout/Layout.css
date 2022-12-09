@@ -1,0 +1,20 @@
+.layout__container {
+  display: grid;
+  grid-template-columns: "header"
+  "main"
+  "main"
+  "main"
+  "main"
+  "footer";
+  
+}
+.head{
+  grid-area: "header";
+}
+.main{
+  grid-area: "main";
+  height: 120vh;
+}
+.foot{
+  grid-area: "foot";
+}

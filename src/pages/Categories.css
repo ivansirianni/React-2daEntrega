@@ -1,0 +1,73 @@
+.about-me__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+ 
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-top: 10%;
+} 
+.packs{
+  margin: auto;
+  color: aliceblue;
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.337);
+  border-radius: 10px;
+  transition: transform .2s;
+  background-image: url("../../public/img/FRUTAS.jpeg"); 
+  background-color: rgba(0,0,0,0.8);
+  filter:brightness(0.9);
+}
+.packs-2{
+  margin: auto;
+  color: aliceblue;
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.337);
+  border-radius: 10px;
+  transition: transform .2s;
+  background-image: url("../../public/img/verduras.jpg"); 
+  background-color: rgba(0,0,0,0.8);
+  filter:brightness(0.9);
+}
+
+.packs:hover{
+  transform: scale(1.1);
+}
+.packs-2:hover{
+  transform: scale(1.1);
+}
+.pack-header{
+  margin: -20px;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+.pack-body{
+  margin: -20px;
+  padding: 20px;
+  border-radius: 10px;
+  color: rgb(224, 230, 224);
+  font-weight: bold;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  
+}
+.pack-title{
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+.pack-btn{
+  margin: -20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.pack-container{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
